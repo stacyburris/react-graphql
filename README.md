@@ -1,21 +1,17 @@
 # React GraphQL
 
-- Learning GraphQL with React
+**Learning GraphQL with React**
 
 ## Author: Stacy Burris
 
-### Instructor: Ray Villalobos
-
-- Senior Staff Instructor at LinkedIn Learning
-
 ### What I Know About GraphQL
 
+- Created by Facebook
+- Query Language
+- Open Source
 - A more efficient alternative to REST
-
 - Single API endpoint
-
 - Single request to server (POST) include query in body
-
   - i.e. HTTP POST
 
 ```
@@ -52,11 +48,13 @@ Written in Schema Definition Language or (SDL)
 
 The exclamation point (!) below means REQUIRED
 
-| type Person { | type Post { |
-| name: String! | title: String! |
-| age: Int! | author: Person! |
-| posts: [Post!]! | |
-| } | } |
+```
+type Person {       type Post {
+    name: String!       title: String!
+    age: Int!           author: Person!
+    posts: [Post!]!
+ }                      }
+```
 
 To define 1 to many relationships you can add the author: and posts: refer above and see how they are connected!
 
@@ -85,3 +83,13 @@ GraphQL Schema
 - Collection of GraphQL types with special root types
 
 ### What I Learned
+
+### Resource Links
+
+- [Github GraphQL Explorer](https://docs.github.com/en/graphql/overview/explorer)
+- [Bootstrap Docs](https://getbootstrap.com/)
+- [Bootstrap Icons Docs](https://icons.getbootstrap.com/)
+
+### Instructor: Ray Villalobos
+
+- Senior Staff Instructor at LinkedIn Learning
