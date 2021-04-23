@@ -4,7 +4,7 @@
 
 ## Author: Stacy Burris
 
-### What I Know About GraphQL
+## What I Know About GraphQL:
 
 - Created by Facebook
 - Query Language
@@ -82,7 +82,31 @@ GraphQL Schema
 - Represents contract between client and server
 - Collection of GraphQL types with special root types
 
-### What I Learned
+## What I Learned & Notes:
+
+- Explorer GitHub GraphQL API
+
+**GraphQL Requests**
+
+- Queries
+- Mutations
+- SPDX ID = standard licenses i.e. MIT License
+  - license(key: "MIT")
+- edges = paginations
+
+**To Generate a Personal Access Token ON GitHub**
+
+- Settings --> Developer Settings --> Generate New Personal Access Token
+
+  - Note: What is the token for? GraphQL Course
+  - Check:
+    - Repo (all), admin:org (read:org), admin:repo_hook (read:repo_hook), user (all), admin:gpg_key (read:gpg_key)
+
+* **Create and you can only see the access token one time!**
+
+**Notes:**
+
+- useCallback is memoization
 
 ### Resource Links
 
