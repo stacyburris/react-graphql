@@ -4,6 +4,8 @@
 
 ## Author: Stacy Burris
 
+![Pulling Repos from GitHub with React and GraphQL](repos.png)
+
 ## What I Know About GraphQL:
 
 - Created by Facebook
